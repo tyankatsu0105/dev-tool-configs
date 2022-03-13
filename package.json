@@ -1,10 +1,10 @@
 {
-  "name": "dev-tool-configs",
+  "name": "@tyankatsu0105/dev-tool-configs",
   "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A config presets for dev tool",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "exit 0",
+    "release": "shipjs prepare"
   },
   "files": [
     "modules"
@@ -13,7 +13,12 @@
     "type": "git",
     "url": "git+https://github.com/tyankatsu0105/dev-tool-configs.git"
   },
-  "keywords": [],
+  "keywords": [
+    "prettier",
+    "jest",
+    "eslint",
+    "preset"
+  ],
   "author": "tyankatsu <frips.ryilsufupe+dev@gmail.com> (https://tyankatsu.com)",
   "license": "MIT",
   "bugs": {
@@ -23,6 +28,7 @@
   "devDependencies": {
     "@jest/types": "^27.5.1",
     "@types/eslint": "^8.4.1",
-    "@types/prettier": "^2.4.4"
+    "@types/prettier": "^2.4.4",
+    "shipjs": "0.24.3"
   }
 }
