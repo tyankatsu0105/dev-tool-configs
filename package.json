@@ -1,6 +1,6 @@
 {
   "name": "@tyankatsu0105/dev-tool-configs",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A config presets for dev tool",
   "scripts": {
     "test": "exit 0",
