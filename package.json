@@ -1,0 +1,28 @@
+{
+  "name": "dev-tool-configs",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "modules"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyankatsu0105/dev-tool-configs.git"
+  },
+  "keywords": [],
+  "author": "tyankatsu <frips.ryilsufupe+dev@gmail.com> (https://tyankatsu.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tyankatsu0105/dev-tool-configs/issues"
+  },
+  "homepage": "https://github.com/tyankatsu0105/dev-tool-configs#readme",
+  "devDependencies": {
+    "@jest/types": "^27.5.1",
+    "@types/eslint": "^8.4.1",
+    "@types/prettier": "^2.4.4"
+  }
+}
